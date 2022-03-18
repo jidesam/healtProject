@@ -1,0 +1,782 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+.first-Sec {
+  padding: 2%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(230, 242, 252),
+    rgb(230, 245, 253),
+    #fff,
+    rgba(229, 243, 250, 0.65),
+    rgb(217, 233, 245)
+  );
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: blue;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+.nav-bar ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+.toggle {
+  display: none;
+}
+.toggle-menu {
+  display: none;
+  width: 40%;
+  height: 50vh;
+
+  background-color: #40a3f3;
+  position: absolute;
+  right: 0%;
+  top: 5rem;
+  transition: all 2s;
+  animation: fade-in 2s;
+}
+.toggle-menu li a {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+#btns3 {
+  width: 8rem;
+  padding: 3%;
+  margin-left: 3%;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  color: #40a3f8;
+  font-size: 1rem;
+}
+.display {
+  display: block;
+}
+.botton {
+  padding: 15px;
+  background-color: #40a3f8;
+  border: none;
+  border-radius: 2px;
+  margin-left: 30px;
+  color: #fff;
+}
+.dr {
+  display: flex;
+  justify-content: space-between;
+}
+.search-doc {
+  font-family: "Roboto", sans-serif;
+  /* width: 40%; */
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 40px;
+}
+#blue {
+  color: #7cbaf0;
+  font-size: 2.3rem;
+}
+#black {
+  font-size: 2.4rem;
+}
+#btnn {
+  margin-left: 1%;
+}
+.solution {
+  background-color: aliceblue;
+}
+.solution h2 {
+  padding: 3%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Roboto";
+}
+.three-steps {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2%;
+}
+.find {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.find h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.doctor-service {
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.male-dr-img img {
+  width: 100%;
+}
+.best {
+  margin-top: 5%;
+}
+.best-header {
+  margin: 0% 7%;
+}
+.best-header h2 {
+  padding: 2%;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+.best-header p {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1vmin;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  margin: 10px 0px;
+}
+.best-header h4 {
+  font-weight: 400;
+  font-size: 2.1vmin;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0px;
+  line-height: 2rem;
+}
+.btns {
+  padding: 4%;
+  background-color: #40a3f8;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-content: center;
+  width: 8rem;
+}
+.service h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.service h4 {
+  text-align: center;
+  font-size: 2.1vmin;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.carocells {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.departments {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2%;
+  margin-left: 5%;
+}
+
+.Cardiology {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 10%;
+  margin-left: 5%;
+  filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+  border-radius: 10px;
+  width: 75%;
+  line-height: 30px;
+  margin-top: 3%;
+}
+
+.certified-online-doc img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+  /* margin-left: 5%; */
+
+  padding: 5%;
+}
+.amanda {
+  width: 95%;
+  padding: 5%;
+  background-color: #fff;
+  border-radius: 5%;
+  height: 600px;
+}
+.amanda-img {
+  background-image: url(Images/Index/amanda.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3%;
+  border-radius: 5px;
+  height: 85%;
+  width: 100%;
+}
+
+.amanda p {
+  background-color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 100%;
+}
+.linda {
+  background-color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  width: 100%;
+}
+.socials {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #fff  ; */
+}
+.Alisa {
+  background-image: url(Images/Index/carddiologist.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3%;
+  border-radius: 5px;
+  height: 85%;
+}
+.Anthony {
+  background-image: url(Images/Index/faucci.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3%;
+  border-radius: 5px;
+  height: 85%;
+}
+.Khalid {
+  background-image: url(Images/Index/cancer-specialist.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3%;
+  border-radius: 5px;
+  height: 85%;
+}
+
+.btnz {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 5px;
+}
+.downloads {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1%;
+}
+.mobile-img img {
+  width: 100%;
+}
+.mobile {
+  width: 90;
+}
+.mobile h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5.1vmin;
+  padding: 5%;
+  margin-top: 10%;
+  font-weight: 600;
+  text-align: left;
+}
+.mobile h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.8vmin;
+  padding: 2%;
+  margin-left: 5%;
+  font-weight: 400;
+  text-align: left;
+}
+.appstore {
+  margin-left: 10%;
+}
+.clients h2 {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+.testimonies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1%; */
+  padding: 5%;
+  margin-left: 5%;
+}
+.zara {
+  position: relative;
+  background-color: #fff;
+  width: 80%;
+  border-radius: 5%;
+  height: 300px;
+}
+.blue-circle {
+  position: absolute;
+  left: 70%;
+  top: -4%;
+}
+.female {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+.txts {
+  padding: 7%;
+}
+.zara h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+.zara h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: #40a3f8;
+  font-weight: 400;
+}
+.zara p {
+  font-family: "Roboto";
+  font-size: 1rem;
+  line-height: 22px;
+}
+.book-appointment {
+  background-image: url(/Images/Index/Rectangle-bg.svg);
+  width: 95%;
+  height: 400px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.book-appointment img {
+  position: absolute;
+  left: 45%;
+  height: 650px;
+  top: -30%;
+}
+.book-appointment h2 {
+  color: #fff;
+  text-align: left;
+  display: flex;
+  margin-left: 15%;
+  font-family: "Roboto";
+  padding: 5%;
+}
+.book-appointment button {
+  padding: 1.5%;
+  width: 15%;
+  margin-left: 20%;
+  background-color: #fff;
+  color: #40a3f8;
+  border: none;
+  border-radius: 5px;
+  display: block;
+}
+
+.section_eight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 2% 7%;
+  background-color: #fff;
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+.section_eight .logo {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+}
+.section_eight p {
+  line-height: 30px;
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+.col_3 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+li {
+  list-style: none;
+  padding: 4px;
+  font-size: 12px;
+}
+.newsletter p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+input {
+  padding: 8px;
+  width: 100%;
+}
+.btn_sub {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #40a3f8;
+  color: #fff;
+  border: 1px solid #40a3f8;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.social img {
+  color: #646464;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(230, 242, 252),
+    rgb(230, 245, 253),
+    #fff,
+    rgb(217, 233, 245)
+  );
+  background-size: cover;
+  height: 20px;
+}
+footer div {
+  font-size: 12px;
+}
+.terms {
+  display: flex;
+  gap: 50px;
+  font-size: 12px;
+}
+hr {
+  background-color: #969696;
+  margin-top: 20px;
+}
+.all-rights {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+.privacy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-cate {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#social_media-social2 {
+  display: none;
+}
+.newsletter {
+  width: 100%;
+}
+.category {
+  display: block;
+  /* margin-right: 100%; */
+}
+
+@media (max-width: 1024px) {
+  .first-Sec {
+    padding: 4%;
+  }
+  .solution {
+    padding: 8%;
+  }
+  .dr {
+    display: block;
+  }
+  .dr-img img {
+    margin-top: 5%;
+    display: block;
+    margin-left: -10%;
+    width: 100%;
+  }
+  .downloads {
+    display: block;
+  }
+  .mobile {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
+  }
+  .mobile-img {
+    display: flex;
+    margin: 0 auto;
+    margin-left: -8%;
+  }
+  .mobile h2 {
+    display: block;
+    margin: 0 auto;
+  }
+  .mobile h5 {
+    display: block;
+    margin: 0 auto;
+  }
+  .appstore {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .doctor-service {
+    display: block;
+  }
+  .Cardiology {
+    width: 100%;
+  }
+
+  .doctors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5%;
+  }
+  .amanda {
+    height: 450px;
+    padding: 5%;
+  }
+  .testimonies {
+    display: block;
+    margin: 0 auto;
+    margin-left: 15%;
+  }
+  .male-dr-img {
+    margin: 0 auto;
+    margin-left: -13%;
+  }
+  .zara {
+    margin-bottom: 5%;
+  }
+  .book-appointment img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #black {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  #blue {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .search-doc {
+    text-align: left;
+  }
+  .botton {
+    display: block;
+    margin: 0 auto;
+  }
+  .departments {
+    display: block;
+  }
+  .Cardiology {
+    margin-bottom: 3%;
+    text-align: center;
+    width: 100%;
+  }
+  .book-appointment img {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+  .section_eight {
+    display: block;
+  }
+  .footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+  }
+  .social_media {
+    display: none;
+  }
+  #social_media-social2 {
+    display: block;
+  }
+  .footer-healt {
+    display: flex;
+    text-align: left;
+  }
+  .flex-cate {
+    display: flex;
+  }
+}
+
+@media (max-width: 425px) {
+  .toggle {
+    display: block;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .book-appointment img {
+    display: none;
+  }
+  .section_eight {
+    display: none;
+  }
+  .three-steps {
+    display: block;
+  }
+  .doctors {
+    display: block;
+  }
+  .amanda {
+    margin-bottom: 4%;
+  }
+  .zara {
+    margin-bottom: 8%;
+    height: 400px;
+  }
+  .service h4 {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .best-header h2 {
+    font-size: 5.1vmin;
+  }
+  .best-header p {
+    font-size: 3.1vmin;
+  }
+  .best-header h4 {
+    font-size: 3vmin;
+    margin-left: 1%;
+  }
+  .search-doc {
+    width: 95%;
+  }
+  .search-doc #black {
+    font-size: 2rem;
+  }
+  .search-doc #blue {
+    font-size: 2rem;
+  }
+  .btnn {
+    display: block;
+    margin: 0 auto;
+  }
+  .downloads h5 {
+    font-size: 2.8vmin;
+    line-height: 20px;
+  }
+  .section_eight {
+    display: block;
+  }
+  .footer-logo {
+    display: block;
+  }
+  .footer-healt {
+    display: block;
+  }
+  .col_3 {
+    display: block;
+  }
+  .flex-cate {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-doc #black {
+    font-size: 1.7rem;
+  }
+
+  .search-doc #blue {
+    font-size: 1.7rem;
+  }
+  .appstore {
+    display: block;
+  }
+  .appstore img {
+    margin-left: 10%;
+  }
+  .downloads h5 {
+    font-size: 1rem;
+    margin-bottom: 2%;
+  }
+  .clients h2 {
+    font-size: 1.7rem;
+  }
+  .Cardiology {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+  .certified-online-doc h2 {
+    font-size: 6vmin;
+  }
+  .certified-online-doc h4 {
+    font-size: 3.2vmin;
+    font-weight: 500;
+  }
+  .clients h2 {
+    font-size: 6vmin;
+  }
+  .zara {
+    width: 100%;
+    height: auto;
+    margin-left: -5%;
+  }
+}

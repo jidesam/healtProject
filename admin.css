@@ -1,0 +1,457 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter";
+  background-color: #e5e5e5;
+}
+.main-page {
+  width: 82%;
+  margin-left: 17%;
+}
+.logo {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.active:hover {
+  background-color: #1d2b4f;
+}
+.toggle {
+  display: none;
+}
+.display {
+  display: block;
+  z-index: 2;
+}
+.notification {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5%;
+}
+.dBoard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-top: 30%;
+  margin-bottom: 2%;
+  color: #ffffff;
+  background-color: #1d2b4f;
+}
+.dBoard-img {
+  margin-right: 15%;
+}
+.waiting {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.waiting-img {
+  margin-right: 15%;
+}
+.patient {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.patient-img {
+  margin-right: 15%;
+}
+.scheduled {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 5%;
+  color: #ffffff;
+}
+.scheduled-img {
+  margin-right: 15%;
+}
+.notes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.notes-img {
+  margin-right: 15%;
+}
+.chats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.chat-img {
+  margin-right: 15%;
+}
+
+.lower-nav {
+  margin-top: 40%;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 2%; */
+  padding: 6%;
+  color: #ffffff;
+}
+.profile-img {
+  margin-right: 15%;
+}
+.settings {
+  display: flex;
+  align-items: center;
+  padding: 6%;
+  color: #ffffff;
+}
+.settings-img {
+  margin-right: 15%;
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color: #8692a60d;
+}
+.dr {
+  width: 98%;
+  background-color: #40a3f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  border-radius: 4px;
+}
+.fayemi {
+  font-size: 1.2rem;
+}
+#fayemi {
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 1.8rem;
+
+  /* word-spacing: 25px; */
+}
+.welcome {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.menu {
+  height: 100vh;
+  background-color: #40a3f8;
+  min-width: 16%;
+  position: fixed;
+}
+.appointment {
+  display: flex;
+}
+.appointment a {
+  border: 1px solid #53acf9;
+  padding: 1.5%;
+  margin-right: 5px;
+  background-color: #53acf9;
+  border-radius: 2px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.stats {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 1%;
+  margin-top: 2%;
+}
+.stats p {
+  display: flex;
+  justify-content: flex-end;
+}
+.allTime {
+  padding: 3%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.today1 {
+  padding: 3%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.today2 {
+  box-shadow: 2px;
+  padding: 3%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.next-patients {
+  background-color: #ffffff;
+  width: 98%;
+  margin-top: 1%;
+}
+.patients {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.patients a {
+  text-decoration: none;
+  color: #40a3f8;
+}
+.guy {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+.guy div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8692a60d;
+  padding: 2%;
+  border-radius: 4px;
+  margin: 1%;
+}
+.jacob div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8692a60d;
+  padding: 2%;
+  border-radius: 4px;
+  margin: 1%;
+}
+.darrel div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8692a60d;
+  padding: 2%;
+  border-radius: 4px;
+  margin: 1%;
+}
+.fayemi-david div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8692a60d;
+  padding: 2%;
+  border-radius: 4px;
+  margin: 1%;
+}
+.appointment-stats img {
+  width: 98%;
+  margin-top: 1%;
+}
+.calendar img {
+  width: 100%;
+
+  margin-right: 2%;
+}
+.gender img {
+  width: 100%;
+}
+.activities {
+  background-color: #ffffff;
+
+  width: 100%;
+  margin-top: 2%;
+}
+.activieies-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.vac-doc {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+}
+
+.vec-mich {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+}
+.mich {
+  display: flex;
+  margin-left: 2%;
+}
+
+.tosin {
+  display: flex;
+  margin-left: 5%;
+}
+.pink {
+  display: flex;
+  justify-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+}
+.pinktxt {
+  display: flex;
+  margin-left: 6%;
+}
+.reschedule {
+  display: flex;
+  justify-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+}
+.reschedule-txt {
+  display: flex;
+  margin-left: 5%;
+}
+.okereke {
+  display: flex;
+  justify-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+  font-size: 0.75rem;
+}
+.okereke-txt {
+  display: flex;
+  margin-left: 5%;
+}
+
+.odubela {
+  display: flex;
+  justify-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+}
+.odubela-txt {
+  text-align: left;
+}
+
+.app {
+  display: flex;
+  justify-items: center;
+  font-size: 0.75rem;
+}
+.img-txt {
+  display: flex;
+  margin-left: 5%;
+}
+/* Schedule page  */
+.reverse {
+  display: grid;
+  grid-template-columns: 29% 69%;
+}
+.patientsList {
+  width: 90%;
+}
+.sorts {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.fa-ellipsis {
+  color: gray;
+}
+.scheduleT {
+  padding: 2%;
+}
+
+.time-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  color: #8692a6;
+}
+
+.long-line {
+  width: 80%;
+}
+
+hr {
+  position: absolute;
+  left: 9.8rem;
+  width: 75%;
+  color: #8692a6;
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    transform: translateX(-100%);
+    transition: 0.5s;
+  }
+
+  .menu-show {
+    transform: translateX(0);
+  }
+
+  .toggle {
+    display: block;
+  }
+  .main-page {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .welcome p {
+    font-size: 0.6rem;
+    padding: 3%;
+  }
+  #fayemi {
+    font-size: 1.5rem;
+  }
+  .appointment {
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 2%;
+  }
+  .welcome a {
+    width: 60%;
+  }
+  #room {
+    width: 60%;
+    padding: 2%;
+  }
+  .guy {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .main-page {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+@media (max-width: 768px) {
+  .dashboard {
+    display: block;
+  }
+  .stats {
+    display: block;
+  }
+  .today1 {
+    margin-bottom: 2%;
+  }
+  .today2 {
+    margin-bottom: 2%;
+  }
+  .allTime {
+    margin-bottom: 2%;
+  }
+  .nurse-img {
+    display: none;
+  }
+  .welcome p {
+    font-size: 1rem;
+  }
+}

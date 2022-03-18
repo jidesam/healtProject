@@ -1,0 +1,123 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.menu {
+  height: 100vh;
+  width: 100%;
+  background-color: #40a3f8;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5%;
+}
+
+.dBoard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-top: 30%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.dBoard-img {
+  margin-right: 15%;
+}
+.waiting {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.waiting-img {
+  margin-right: 15%;
+}
+.patient {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.patient-img {
+  margin-right: 15%;
+}
+.scheduled {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 5%;
+  color: #ffffff;
+}
+.scheduled-img {
+  margin-right: 15%;
+}
+.notes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.notes-img {
+  margin-right: 15%;
+}
+.chats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6%;
+  margin-bottom: 2%;
+  color: #ffffff;
+}
+.fa-solid {
+  margin-right: 15%;
+  color: #ffffff;
+}
+.notification {
+  width: 100%;
+  background-color: #ffffff;
+  height: 7;
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: 100%;
+  /* border: 1px solid blue; */
+  background-color: #8692a60d;
+}
+.drz {
+  width: 100%;
+  background-color: #40a3f8;
+  display: grid;
+  grid-template-columns: 95%;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  border-radius: 4px;
+}
+.fayemi {
+  font-size: 1.2rem;
+}
+#fayemi {
+  font-weight: bold;
+}
+.welcome {
+  font-size: 0.8rem;
+  color: #ffffff;
+}
