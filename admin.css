@@ -157,6 +157,10 @@ body {
   min-width: 16%;
   position: fixed;
 }
+.menu a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
 .appointment {
   display: flex;
 }

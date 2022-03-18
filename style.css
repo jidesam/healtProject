@@ -45,6 +45,9 @@
   cursor: pointer;
   text-align: center;
 }
+.nav-bar ul li a {
+  text-decoration: none;
+}
 .toggle {
   display: none;
 }
@@ -391,7 +394,7 @@
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 5%;
+  margin-top: 10%;
   border-radius: 5px;
 }
 .book-appointment img {
@@ -410,7 +413,7 @@
 }
 .book-appointment button {
   padding: 1.5%;
-  width: 15%;
+  width: 30%;
   margin-left: 20%;
   background-color: #fff;
   color: #40a3f8;
@@ -622,6 +625,7 @@ hr {
   }
   .departments {
     display: block;
+    margin: 0 auto;
   }
   .Cardiology {
     margin-bottom: 3%;
