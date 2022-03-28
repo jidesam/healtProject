@@ -676,6 +676,14 @@ hr {
   .book-appointment img {
     display: none;
   }
+  .book-appointment h2 {
+    position: absolute;
+    top: 10%;
+  }
+  .btns2 {
+    position: absolute;
+    top: 50%;
+  }
   .section_eight {
     display: none;
   }
